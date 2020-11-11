@@ -27,7 +27,7 @@
     </div>
     <!--第一个--->
     <div>
-        <van-cell icon="label-o" title="全部订单" is-link to="index" />
+        <van-cell icon="label-o" title="全部" is-link to="index" />
 
     </div>
     <!--第二个--->
