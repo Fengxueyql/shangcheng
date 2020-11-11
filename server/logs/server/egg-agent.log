@@ -549,3 +549,4 @@ hostname: Trayvon
 2020-11-11 14:53:52,658 INFO 55556 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\shop\\server\\app.js"
 2020-11-11 14:53:52,659 INFO 55556 [egg-watcher:agent] watcher start success
 2020-11-11 14:53:52,684 INFO 55556 [egg:core] dump config after ready, 13ms
+2020-11-11 19:35:44,947 WARN 55556 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
