@@ -1,7 +1,7 @@
 <template>
 <div>
     <div class="box1">
-        <div v-for="(item,index) in list1" :key="index"><img :src="item.image" class="box2"></div>
+        <div v-for="(item,index) in list1" :key="index"><img :src="item.image" class="box2" @click="jump(item)"></div>
 
     </div>
     <div class="box3"><img :src="list2.PICTURE_ADDRESS"></div>
@@ -35,6 +35,19 @@ export default {
 
                 }
             })
+        },
+        //路由传参
+        jump(item) {
+
+            this.$router.push({
+                path: '/detail',
+                query: {
+                    id: item.goodsId
+
+                }
+
+            })
+
         }
 
     },

@@ -19,8 +19,8 @@ let  Api =  {
        })
    },
    //4. 查询获取购物车数据(post)
-   getcard() {
-       return http.post('/getCard')
+   getcard(data) {
+       return http.post('/getCard',data)
    },
    //5. 购物车加减商品(post)
    editcart(count,id,mallPrice) {
@@ -32,9 +32,9 @@ let  Api =  {
    },
    //6. 购物车商品删除(post)
    deleteshop(cid) {
-       return http.post('/deleteShop', {
-           cid
-       })
+       return http.post('/deleteShop',cid
+
+       )
    },
    //7. 购物车支付页面(post)
    order(address,tel,orderId,totalPrice,idDirect,count) {
@@ -72,10 +72,8 @@ let  Api =  {
        })
    },
    //12. 加入购物车(post)
-   addShop({id}) {
-       return http.post('/addShop',{
-           id
-       })
+   addShop(data) {
+       return http.post('/addShop', data)
    },
    //13. 退出登录(post)
    loginout() {

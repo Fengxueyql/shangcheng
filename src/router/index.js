@@ -77,7 +77,17 @@ const routes = [
       title: '商品详情'
     },
 
+  },
+  {
+    path: '/commit',
+    name: 'commit',
+    component:()=>import('../views/detail/commit'),
+    meta:{
+      title: '商品评论'
+    },
+
   }
+
 
 ]
 

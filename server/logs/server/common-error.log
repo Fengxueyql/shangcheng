@@ -1831,3 +1831,1153 @@ name: "MongoError"
 pid: 9412
 hostname: STU008
 
+2020-11-12 17:21:37,716 ERROR 13872 [-/127.0.0.1/-/54ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  cid: [
+    {
+      add_time: 1605166175668,
+      check: false,
+      count: 3,
+      _id: '5face45f270f993630e058c6',
+      uid: '5fabc7bd73fa64d9604314a2',
+      present_price: 7.5,
+      cid: 'a5d1130de39f434facc6d35514cea053',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',
+      name: '名屋黑豆浆饮料485ml/瓶',
+      mallPrice: 7.5,
+      __v: 0
+    }
+  ]
+}" at path "cid" for model "ShopList"
+  cid: [
+    {
+      add_time: 1605166175668,
+      check: false,
+      count: 3,
+      _id: '5face45f270f993630e058c6',
+      uid: '5fabc7bd73fa64d9604314a2',
+      present_price: 7.5,
+      cid: 'a5d1130de39f434facc6d35514cea053',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',
+      name: '名屋黑豆浆饮料485ml/瓶',
+      mallPrice: 7.5,
+      __v: 0
+    }
+  ]
+}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{\n  cid: [\n    {\n      add_time: 1605166175668,\n      check: false,\n      count: 3,\n      _id: '5face45f270f993630e058c6',\n      uid: '5fabc7bd73fa64d9604314a2',\n      present_price: 7.5,\n      cid: 'a5d1130de39f434facc6d35514cea053',\n      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',\n      name: '名屋黑豆浆饮料485ml/瓶',\n      mallPrice: 7.5,\n      __v: 0\n    }\n  ]\n}\""
+kind: "string"
+value: {"cid":[{"add_time":1605166175668,"check":false,"count":3,"_id":"5face45f270f993630e058c6","uid":"5fabc7bd73fa64d9604314a2","present_price":7.5,"cid":"a5d1130de39f434facc6d35514cea053","image_path":"http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg","name":"名屋黑豆浆饮料485ml/瓶","mallPrice":7.5,"__v":0}]}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 17:22:55,648 ERROR 13872 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  cid: [
+    {
+      add_time: 1605166175668,
+      check: false,
+      count: 3,
+      _id: '5face45f270f993630e058c6',
+      uid: '5fabc7bd73fa64d9604314a2',
+      present_price: 7.5,
+      cid: 'a5d1130de39f434facc6d35514cea053',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',
+      name: '名屋黑豆浆饮料485ml/瓶',
+      mallPrice: 7.5,
+      __v: 0
+    }
+  ]
+}" at path "cid" for model "ShopList"
+  cid: [
+    {
+      add_time: 1605166175668,
+      check: false,
+      count: 3,
+      _id: '5face45f270f993630e058c6',
+      uid: '5fabc7bd73fa64d9604314a2',
+      present_price: 7.5,
+      cid: 'a5d1130de39f434facc6d35514cea053',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',
+      name: '名屋黑豆浆饮料485ml/瓶',
+      mallPrice: 7.5,
+      __v: 0
+    }
+  ]
+}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{\n  cid: [\n    {\n      add_time: 1605166175668,\n      check: false,\n      count: 3,\n      _id: '5face45f270f993630e058c6',\n      uid: '5fabc7bd73fa64d9604314a2',\n      present_price: 7.5,\n      cid: 'a5d1130de39f434facc6d35514cea053',\n      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',\n      name: '名屋黑豆浆饮料485ml/瓶',\n      mallPrice: 7.5,\n      __v: 0\n    }\n  ]\n}\""
+kind: "string"
+value: {"cid":[{"add_time":1605166175668,"check":false,"count":3,"_id":"5face45f270f993630e058c6","uid":"5fabc7bd73fa64d9604314a2","present_price":7.5,"cid":"a5d1130de39f434facc6d35514cea053","image_path":"http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg","name":"名屋黑豆浆饮料485ml/瓶","mallPrice":7.5,"__v":0}]}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 17:23:43,506 ERROR 13872 [-/127.0.0.1/-/5ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  cid: [
+    {
+      add_time: 1605166175668,
+      check: false,
+      count: 3,
+      _id: '5face45f270f993630e058c6',
+      uid: '5fabc7bd73fa64d9604314a2',
+      present_price: 7.5,
+      cid: 'a5d1130de39f434facc6d35514cea053',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',
+      name: '名屋黑豆浆饮料485ml/瓶',
+      mallPrice: 7.5,
+      __v: 0
+    }
+  ]
+}" at path "cid" for model "ShopList"
+  cid: [
+    {
+      add_time: 1605166175668,
+      check: false,
+      count: 3,
+      _id: '5face45f270f993630e058c6',
+      uid: '5fabc7bd73fa64d9604314a2',
+      present_price: 7.5,
+      cid: 'a5d1130de39f434facc6d35514cea053',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',
+      name: '名屋黑豆浆饮料485ml/瓶',
+      mallPrice: 7.5,
+      __v: 0
+    }
+  ]
+}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{\n  cid: [\n    {\n      add_time: 1605166175668,\n      check: false,\n      count: 3,\n      _id: '5face45f270f993630e058c6',\n      uid: '5fabc7bd73fa64d9604314a2',\n      present_price: 7.5,\n      cid: 'a5d1130de39f434facc6d35514cea053',\n      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',\n      name: '名屋黑豆浆饮料485ml/瓶',\n      mallPrice: 7.5,\n      __v: 0\n    }\n  ]\n}\""
+kind: "string"
+value: {"cid":[{"add_time":1605166175668,"check":false,"count":3,"_id":"5face45f270f993630e058c6","uid":"5fabc7bd73fa64d9604314a2","present_price":7.5,"cid":"a5d1130de39f434facc6d35514cea053","image_path":"http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg","name":"名屋黑豆浆饮料485ml/瓶","mallPrice":7.5,"__v":0}]}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 17:32:57,796 ERROR 13872 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  cid: [
+    {
+      add_time: 1605166175668,
+      check: false,
+      count: 3,
+      _id: '5face45f270f993630e058c6',
+      uid: '5fabc7bd73fa64d9604314a2',
+      present_price: 7.5,
+      cid: 'a5d1130de39f434facc6d35514cea053',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',
+      name: '名屋黑豆浆饮料485ml/瓶',
+      mallPrice: 7.5,
+      __v: 0
+    }
+  ]
+}" at path "cid" for model "ShopList"
+  cid: [
+    {
+      add_time: 1605166175668,
+      check: false,
+      count: 3,
+      _id: '5face45f270f993630e058c6',
+      uid: '5fabc7bd73fa64d9604314a2',
+      present_price: 7.5,
+      cid: 'a5d1130de39f434facc6d35514cea053',
+      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',
+      name: '名屋黑豆浆饮料485ml/瓶',
+      mallPrice: 7.5,
+      __v: 0
+    }
+  ]
+}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{\n  cid: [\n    {\n      add_time: 1605166175668,\n      check: false,\n      count: 3,\n      _id: '5face45f270f993630e058c6',\n      uid: '5fabc7bd73fa64d9604314a2',\n      present_price: 7.5,\n      cid: 'a5d1130de39f434facc6d35514cea053',\n      image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',\n      name: '名屋黑豆浆饮料485ml/瓶',\n      mallPrice: 7.5,\n      __v: 0\n    }\n  ]\n}\""
+kind: "string"
+value: {"cid":[{"add_time":1605166175668,"check":false,"count":3,"_id":"5face45f270f993630e058c6","uid":"5fabc7bd73fa64d9604314a2","present_price":7.5,"cid":"a5d1130de39f434facc6d35514cea053","image_path":"http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg","name":"名屋黑豆浆饮料485ml/瓶","mallPrice":7.5,"__v":0}]}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 17:36:23,396 ERROR 13872 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  cid: {
+    add_time: 1605166175668,
+    check: false,
+    count: 3,
+    _id: '5face45f270f993630e058c6',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 7.5,
+    cid: 'a5d1130de39f434facc6d35514cea053',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',
+    name: '名屋黑豆浆饮料485ml/瓶',
+    mallPrice: 7.5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+  cid: {
+    add_time: 1605166175668,
+    check: false,
+    count: 3,
+    _id: '5face45f270f993630e058c6',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 7.5,
+    cid: 'a5d1130de39f434facc6d35514cea053',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',
+    name: '名屋黑豆浆饮料485ml/瓶',
+    mallPrice: 7.5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{\n  cid: {\n    add_time: 1605166175668,\n    check: false,\n    count: 3,\n    _id: '5face45f270f993630e058c6',\n    uid: '5fabc7bd73fa64d9604314a2',\n    present_price: 7.5,\n    cid: 'a5d1130de39f434facc6d35514cea053',\n    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',\n    name: '名屋黑豆浆饮料485ml/瓶',\n    mallPrice: 7.5,\n    __v: 0\n  }\n}\""
+kind: "string"
+value: {"cid":{"add_time":1605166175668,"check":false,"count":3,"_id":"5face45f270f993630e058c6","uid":"5fabc7bd73fa64d9604314a2","present_price":7.5,"cid":"a5d1130de39f434facc6d35514cea053","image_path":"http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg","name":"名屋黑豆浆饮料485ml/瓶","mallPrice":7.5,"__v":0}}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 17:36:26,321 ERROR 13872 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  cid: {
+    add_time: 1605166175668,
+    check: false,
+    count: 3,
+    _id: '5face45f270f993630e058c6',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 7.5,
+    cid: 'a5d1130de39f434facc6d35514cea053',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',
+    name: '名屋黑豆浆饮料485ml/瓶',
+    mallPrice: 7.5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+  cid: {
+    add_time: 1605166175668,
+    check: false,
+    count: 3,
+    _id: '5face45f270f993630e058c6',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 7.5,
+    cid: 'a5d1130de39f434facc6d35514cea053',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',
+    name: '名屋黑豆浆饮料485ml/瓶',
+    mallPrice: 7.5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{\n  cid: {\n    add_time: 1605166175668,\n    check: false,\n    count: 3,\n    _id: '5face45f270f993630e058c6',\n    uid: '5fabc7bd73fa64d9604314a2',\n    present_price: 7.5,\n    cid: 'a5d1130de39f434facc6d35514cea053',\n    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',\n    name: '名屋黑豆浆饮料485ml/瓶',\n    mallPrice: 7.5,\n    __v: 0\n  }\n}\""
+kind: "string"
+value: {"cid":{"add_time":1605166175668,"check":false,"count":3,"_id":"5face45f270f993630e058c6","uid":"5fabc7bd73fa64d9604314a2","present_price":7.5,"cid":"a5d1130de39f434facc6d35514cea053","image_path":"http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg","name":"名屋黑豆浆饮料485ml/瓶","mallPrice":7.5,"__v":0}}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 17:39:11,992 ERROR 13872 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  cid: {
+    add_time: 1605166175668,
+    check: false,
+    count: 3,
+    _id: '5face45f270f993630e058c6',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 7.5,
+    cid: 'a5d1130de39f434facc6d35514cea053',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',
+    name: '名屋黑豆浆饮料485ml/瓶',
+    mallPrice: 7.5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+  cid: {
+    add_time: 1605166175668,
+    check: false,
+    count: 3,
+    _id: '5face45f270f993630e058c6',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 7.5,
+    cid: 'a5d1130de39f434facc6d35514cea053',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',
+    name: '名屋黑豆浆饮料485ml/瓶',
+    mallPrice: 7.5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{\n  cid: {\n    add_time: 1605166175668,\n    check: false,\n    count: 3,\n    _id: '5face45f270f993630e058c6',\n    uid: '5fabc7bd73fa64d9604314a2',\n    present_price: 7.5,\n    cid: 'a5d1130de39f434facc6d35514cea053',\n    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',\n    name: '名屋黑豆浆饮料485ml/瓶',\n    mallPrice: 7.5,\n    __v: 0\n  }\n}\""
+kind: "string"
+value: {"cid":{"add_time":1605166175668,"check":false,"count":3,"_id":"5face45f270f993630e058c6","uid":"5fabc7bd73fa64d9604314a2","present_price":7.5,"cid":"a5d1130de39f434facc6d35514cea053","image_path":"http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg","name":"名屋黑豆浆饮料485ml/瓶","mallPrice":7.5,"__v":0}}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 17:39:18,354 ERROR 13872 [-/127.0.0.1/-/4ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  cid: {
+    add_time: 1605165283908,
+    check: false,
+    count: 2,
+    _id: '5face0e3270f993630e058c5',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 14.5,
+    cid: '8172961149434b51865612820c7b8891',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415121432_880.jpg',
+    name: '椰树牌椰汁饮料1L/瓶',
+    mallPrice: 14.5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+  cid: {
+    add_time: 1605165283908,
+    check: false,
+    count: 2,
+    _id: '5face0e3270f993630e058c5',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 14.5,
+    cid: '8172961149434b51865612820c7b8891',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415121432_880.jpg',
+    name: '椰树牌椰汁饮料1L/瓶',
+    mallPrice: 14.5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{\n  cid: {\n    add_time: 1605165283908,\n    check: false,\n    count: 2,\n    _id: '5face0e3270f993630e058c5',\n    uid: '5fabc7bd73fa64d9604314a2',\n    present_price: 14.5,\n    cid: '8172961149434b51865612820c7b8891',\n    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415121432_880.jpg',\n    name: '椰树牌椰汁饮料1L/瓶',\n    mallPrice: 14.5,\n    __v: 0\n  }\n}\""
+kind: "string"
+value: {"cid":{"add_time":1605165283908,"check":false,"count":2,"_id":"5face0e3270f993630e058c5","uid":"5fabc7bd73fa64d9604314a2","present_price":14.5,"cid":"8172961149434b51865612820c7b8891","image_path":"http://images.baixingliangfan.cn/compressedPic/20180415121432_880.jpg","name":"椰树牌椰汁饮料1L/瓶","mallPrice":14.5,"__v":0}}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 17:39:20,857 ERROR 13872 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  cid: {
+    add_time: 1605159214132,
+    check: false,
+    count: 29,
+    _id: '5facc92e270f993630e058c4',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 4.5,
+    cid: '775e575ce28a4f89b1dfe2c99eb08ae7',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415115202_8432.jpg',
+    name: '阿华田麦芽乳饮品牛奶味250mL/盒',
+    mallPrice: 4.5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+  cid: {
+    add_time: 1605159214132,
+    check: false,
+    count: 29,
+    _id: '5facc92e270f993630e058c4',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 4.5,
+    cid: '775e575ce28a4f89b1dfe2c99eb08ae7',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415115202_8432.jpg',
+    name: '阿华田麦芽乳饮品牛奶味250mL/盒',
+    mallPrice: 4.5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{\n  cid: {\n    add_time: 1605159214132,\n    check: false,\n    count: 29,\n    _id: '5facc92e270f993630e058c4',\n    uid: '5fabc7bd73fa64d9604314a2',\n    present_price: 4.5,\n    cid: '775e575ce28a4f89b1dfe2c99eb08ae7',\n    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415115202_8432.jpg',\n    name: '阿华田麦芽乳饮品牛奶味250mL/盒',\n    mallPrice: 4.5,\n    __v: 0\n  }\n}\""
+kind: "string"
+value: {"cid":{"add_time":1605159214132,"check":false,"count":29,"_id":"5facc92e270f993630e058c4","uid":"5fabc7bd73fa64d9604314a2","present_price":4.5,"cid":"775e575ce28a4f89b1dfe2c99eb08ae7","image_path":"http://images.baixingliangfan.cn/compressedPic/20180415115202_8432.jpg","name":"阿华田麦芽乳饮品牛奶味250mL/盒","mallPrice":4.5,"__v":0}}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 17:39:23,330 ERROR 13872 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  cid: {
+    add_time: 1605158902117,
+    check: false,
+    count: 1,
+    _id: '5facc7f6270f993630e058c3',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 6.3,
+    cid: 'bd25fd5d128e41fd9a737e99f75f92f8',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20171224082006_6602.jpg',
+    name: '娃哈哈AD钙奶220ml*4/条',
+    mallPrice: 6.3,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+  cid: {
+    add_time: 1605158902117,
+    check: false,
+    count: 1,
+    _id: '5facc7f6270f993630e058c3',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 6.3,
+    cid: 'bd25fd5d128e41fd9a737e99f75f92f8',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20171224082006_6602.jpg',
+    name: '娃哈哈AD钙奶220ml*4/条',
+    mallPrice: 6.3,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{\n  cid: {\n    add_time: 1605158902117,\n    check: false,\n    count: 1,\n    _id: '5facc7f6270f993630e058c3',\n    uid: '5fabc7bd73fa64d9604314a2',\n    present_price: 6.3,\n    cid: 'bd25fd5d128e41fd9a737e99f75f92f8',\n    image_path: 'http://images.baixingliangfan.cn/compressedPic/20171224082006_6602.jpg',\n    name: '娃哈哈AD钙奶220ml*4/条',\n    mallPrice: 6.3,\n    __v: 0\n  }\n}\""
+kind: "string"
+value: {"cid":{"add_time":1605158902117,"check":false,"count":1,"_id":"5facc7f6270f993630e058c3","uid":"5fabc7bd73fa64d9604314a2","present_price":6.3,"cid":"bd25fd5d128e41fd9a737e99f75f92f8","image_path":"http://images.baixingliangfan.cn/compressedPic/20171224082006_6602.jpg","name":"娃哈哈AD钙奶220ml*4/条","mallPrice":6.3,"__v":0}}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 17:39:25,311 ERROR 13872 [-/127.0.0.1/-/3ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  cid: {
+    add_time: 1605158284166,
+    check: false,
+    count: 2,
+    _id: '5facc58c270f993630e058c2',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 5,
+    cid: '9abd33f0d2e4496f9c023a1dcfbfe2ad',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180103161335_9324.jpg',
+    name: '李子园甜牛奶乳饮料450ml/瓶',
+    mallPrice: 5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+  cid: {
+    add_time: 1605158284166,
+    check: false,
+    count: 2,
+    _id: '5facc58c270f993630e058c2',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 5,
+    cid: '9abd33f0d2e4496f9c023a1dcfbfe2ad',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180103161335_9324.jpg',
+    name: '李子园甜牛奶乳饮料450ml/瓶',
+    mallPrice: 5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{\n  cid: {\n    add_time: 1605158284166,\n    check: false,\n    count: 2,\n    _id: '5facc58c270f993630e058c2',\n    uid: '5fabc7bd73fa64d9604314a2',\n    present_price: 5,\n    cid: '9abd33f0d2e4496f9c023a1dcfbfe2ad',\n    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180103161335_9324.jpg',\n    name: '李子园甜牛奶乳饮料450ml/瓶',\n    mallPrice: 5,\n    __v: 0\n  }\n}\""
+kind: "string"
+value: {"cid":{"add_time":1605158284166,"check":false,"count":2,"_id":"5facc58c270f993630e058c2","uid":"5fabc7bd73fa64d9604314a2","present_price":5,"cid":"9abd33f0d2e4496f9c023a1dcfbfe2ad","image_path":"http://images.baixingliangfan.cn/compressedPic/20180103161335_9324.jpg","name":"李子园甜牛奶乳饮料450ml/瓶","mallPrice":5,"__v":0}}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 17:42:16,115 ERROR 13872 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  cid: {
+    add_time: 1605166175668,
+    check: false,
+    count: 3,
+    _id: '5face45f270f993630e058c6',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 7.5,
+    cid: 'a5d1130de39f434facc6d35514cea053',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',
+    name: '名屋黑豆浆饮料485ml/瓶',
+    mallPrice: 7.5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+  cid: {
+    add_time: 1605166175668,
+    check: false,
+    count: 3,
+    _id: '5face45f270f993630e058c6',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 7.5,
+    cid: 'a5d1130de39f434facc6d35514cea053',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',
+    name: '名屋黑豆浆饮料485ml/瓶',
+    mallPrice: 7.5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{\n  cid: {\n    add_time: 1605166175668,\n    check: false,\n    count: 3,\n    _id: '5face45f270f993630e058c6',\n    uid: '5fabc7bd73fa64d9604314a2',\n    present_price: 7.5,\n    cid: 'a5d1130de39f434facc6d35514cea053',\n    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',\n    name: '名屋黑豆浆饮料485ml/瓶',\n    mallPrice: 7.5,\n    __v: 0\n  }\n}\""
+kind: "string"
+value: {"cid":{"add_time":1605166175668,"check":false,"count":3,"_id":"5face45f270f993630e058c6","uid":"5fabc7bd73fa64d9604314a2","present_price":7.5,"cid":"a5d1130de39f434facc6d35514cea053","image_path":"http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg","name":"名屋黑豆浆饮料485ml/瓶","mallPrice":7.5,"__v":0}}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 17:43:50,411 ERROR 13872 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  cid: {
+    add_time: 1605166175668,
+    check: false,
+    count: 3,
+    _id: '5face45f270f993630e058c6',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 7.5,
+    cid: 'a5d1130de39f434facc6d35514cea053',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',
+    name: '名屋黑豆浆饮料485ml/瓶',
+    mallPrice: 7.5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+  cid: {
+    add_time: 1605166175668,
+    check: false,
+    count: 3,
+    _id: '5face45f270f993630e058c6',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 7.5,
+    cid: 'a5d1130de39f434facc6d35514cea053',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',
+    name: '名屋黑豆浆饮料485ml/瓶',
+    mallPrice: 7.5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{\n  cid: {\n    add_time: 1605166175668,\n    check: false,\n    count: 3,\n    _id: '5face45f270f993630e058c6',\n    uid: '5fabc7bd73fa64d9604314a2',\n    present_price: 7.5,\n    cid: 'a5d1130de39f434facc6d35514cea053',\n    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',\n    name: '名屋黑豆浆饮料485ml/瓶',\n    mallPrice: 7.5,\n    __v: 0\n  }\n}\""
+kind: "string"
+value: {"cid":{"add_time":1605166175668,"check":false,"count":3,"_id":"5face45f270f993630e058c6","uid":"5fabc7bd73fa64d9604314a2","present_price":7.5,"cid":"a5d1130de39f434facc6d35514cea053","image_path":"http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg","name":"名屋黑豆浆饮料485ml/瓶","mallPrice":7.5,"__v":0}}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 17:43:57,617 ERROR 13872 [-/127.0.0.1/-/5ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  cid: {
+    add_time: 1605165283908,
+    check: false,
+    count: 2,
+    _id: '5face0e3270f993630e058c5',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 14.5,
+    cid: '8172961149434b51865612820c7b8891',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415121432_880.jpg',
+    name: '椰树牌椰汁饮料1L/瓶',
+    mallPrice: 14.5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+  cid: {
+    add_time: 1605165283908,
+    check: false,
+    count: 2,
+    _id: '5face0e3270f993630e058c5',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 14.5,
+    cid: '8172961149434b51865612820c7b8891',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415121432_880.jpg',
+    name: '椰树牌椰汁饮料1L/瓶',
+    mallPrice: 14.5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{\n  cid: {\n    add_time: 1605165283908,\n    check: false,\n    count: 2,\n    _id: '5face0e3270f993630e058c5',\n    uid: '5fabc7bd73fa64d9604314a2',\n    present_price: 14.5,\n    cid: '8172961149434b51865612820c7b8891',\n    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415121432_880.jpg',\n    name: '椰树牌椰汁饮料1L/瓶',\n    mallPrice: 14.5,\n    __v: 0\n  }\n}\""
+kind: "string"
+value: {"cid":{"add_time":1605165283908,"check":false,"count":2,"_id":"5face0e3270f993630e058c5","uid":"5fabc7bd73fa64d9604314a2","present_price":14.5,"cid":"8172961149434b51865612820c7b8891","image_path":"http://images.baixingliangfan.cn/compressedPic/20180415121432_880.jpg","name":"椰树牌椰汁饮料1L/瓶","mallPrice":14.5,"__v":0}}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 17:44:04,154 ERROR 13872 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  cid: {
+    add_time: 1605158902117,
+    check: false,
+    count: 1,
+    _id: '5facc7f6270f993630e058c3',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 6.3,
+    cid: 'bd25fd5d128e41fd9a737e99f75f92f8',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20171224082006_6602.jpg',
+    name: '娃哈哈AD钙奶220ml*4/条',
+    mallPrice: 6.3,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+  cid: {
+    add_time: 1605158902117,
+    check: false,
+    count: 1,
+    _id: '5facc7f6270f993630e058c3',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 6.3,
+    cid: 'bd25fd5d128e41fd9a737e99f75f92f8',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20171224082006_6602.jpg',
+    name: '娃哈哈AD钙奶220ml*4/条',
+    mallPrice: 6.3,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{\n  cid: {\n    add_time: 1605158902117,\n    check: false,\n    count: 1,\n    _id: '5facc7f6270f993630e058c3',\n    uid: '5fabc7bd73fa64d9604314a2',\n    present_price: 6.3,\n    cid: 'bd25fd5d128e41fd9a737e99f75f92f8',\n    image_path: 'http://images.baixingliangfan.cn/compressedPic/20171224082006_6602.jpg',\n    name: '娃哈哈AD钙奶220ml*4/条',\n    mallPrice: 6.3,\n    __v: 0\n  }\n}\""
+kind: "string"
+value: {"cid":{"add_time":1605158902117,"check":false,"count":1,"_id":"5facc7f6270f993630e058c3","uid":"5fabc7bd73fa64d9604314a2","present_price":6.3,"cid":"bd25fd5d128e41fd9a737e99f75f92f8","image_path":"http://images.baixingliangfan.cn/compressedPic/20171224082006_6602.jpg","name":"娃哈哈AD钙奶220ml*4/条","mallPrice":6.3,"__v":0}}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 17:44:57,635 ERROR 13872 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  cid: {
+    add_time: 1605166175668,
+    check: false,
+    count: 3,
+    _id: '5face45f270f993630e058c6',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 7.5,
+    cid: 'a5d1130de39f434facc6d35514cea053',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',
+    name: '名屋黑豆浆饮料485ml/瓶',
+    mallPrice: 7.5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+  cid: {
+    add_time: 1605166175668,
+    check: false,
+    count: 3,
+    _id: '5face45f270f993630e058c6',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 7.5,
+    cid: 'a5d1130de39f434facc6d35514cea053',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',
+    name: '名屋黑豆浆饮料485ml/瓶',
+    mallPrice: 7.5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{\n  cid: {\n    add_time: 1605166175668,\n    check: false,\n    count: 3,\n    _id: '5face45f270f993630e058c6',\n    uid: '5fabc7bd73fa64d9604314a2',\n    present_price: 7.5,\n    cid: 'a5d1130de39f434facc6d35514cea053',\n    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',\n    name: '名屋黑豆浆饮料485ml/瓶',\n    mallPrice: 7.5,\n    __v: 0\n  }\n}\""
+kind: "string"
+value: {"cid":{"add_time":1605166175668,"check":false,"count":3,"_id":"5face45f270f993630e058c6","uid":"5fabc7bd73fa64d9604314a2","present_price":7.5,"cid":"a5d1130de39f434facc6d35514cea053","image_path":"http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg","name":"名屋黑豆浆饮料485ml/瓶","mallPrice":7.5,"__v":0}}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 17:45:07,090 ERROR 13872 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  cid: {
+    add_time: 1605165283908,
+    check: false,
+    count: 2,
+    _id: '5face0e3270f993630e058c5',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 14.5,
+    cid: '8172961149434b51865612820c7b8891',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415121432_880.jpg',
+    name: '椰树牌椰汁饮料1L/瓶',
+    mallPrice: 14.5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+  cid: {
+    add_time: 1605165283908,
+    check: false,
+    count: 2,
+    _id: '5face0e3270f993630e058c5',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 14.5,
+    cid: '8172961149434b51865612820c7b8891',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415121432_880.jpg',
+    name: '椰树牌椰汁饮料1L/瓶',
+    mallPrice: 14.5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{\n  cid: {\n    add_time: 1605165283908,\n    check: false,\n    count: 2,\n    _id: '5face0e3270f993630e058c5',\n    uid: '5fabc7bd73fa64d9604314a2',\n    present_price: 14.5,\n    cid: '8172961149434b51865612820c7b8891',\n    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415121432_880.jpg',\n    name: '椰树牌椰汁饮料1L/瓶',\n    mallPrice: 14.5,\n    __v: 0\n  }\n}\""
+kind: "string"
+value: {"cid":{"add_time":1605165283908,"check":false,"count":2,"_id":"5face0e3270f993630e058c5","uid":"5fabc7bd73fa64d9604314a2","present_price":14.5,"cid":"8172961149434b51865612820c7b8891","image_path":"http://images.baixingliangfan.cn/compressedPic/20180415121432_880.jpg","name":"椰树牌椰汁饮料1L/瓶","mallPrice":14.5,"__v":0}}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 17:45:13,610 ERROR 13872 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  cid: {
+    add_time: 1605158902117,
+    check: false,
+    count: 1,
+    _id: '5facc7f6270f993630e058c3',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 6.3,
+    cid: 'bd25fd5d128e41fd9a737e99f75f92f8',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20171224082006_6602.jpg',
+    name: '娃哈哈AD钙奶220ml*4/条',
+    mallPrice: 6.3,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+  cid: {
+    add_time: 1605158902117,
+    check: false,
+    count: 1,
+    _id: '5facc7f6270f993630e058c3',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 6.3,
+    cid: 'bd25fd5d128e41fd9a737e99f75f92f8',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20171224082006_6602.jpg',
+    name: '娃哈哈AD钙奶220ml*4/条',
+    mallPrice: 6.3,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{\n  cid: {\n    add_time: 1605158902117,\n    check: false,\n    count: 1,\n    _id: '5facc7f6270f993630e058c3',\n    uid: '5fabc7bd73fa64d9604314a2',\n    present_price: 6.3,\n    cid: 'bd25fd5d128e41fd9a737e99f75f92f8',\n    image_path: 'http://images.baixingliangfan.cn/compressedPic/20171224082006_6602.jpg',\n    name: '娃哈哈AD钙奶220ml*4/条',\n    mallPrice: 6.3,\n    __v: 0\n  }\n}\""
+kind: "string"
+value: {"cid":{"add_time":1605158902117,"check":false,"count":1,"_id":"5facc7f6270f993630e058c3","uid":"5fabc7bd73fa64d9604314a2","present_price":6.3,"cid":"bd25fd5d128e41fd9a737e99f75f92f8","image_path":"http://images.baixingliangfan.cn/compressedPic/20171224082006_6602.jpg","name":"娃哈哈AD钙奶220ml*4/条","mallPrice":6.3,"__v":0}}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 17:48:43,461 ERROR 13872 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  cid: {
+    add_time: 1605166175668,
+    check: false,
+    count: 3,
+    _id: '5face45f270f993630e058c6',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 7.5,
+    cid: 'a5d1130de39f434facc6d35514cea053',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',
+    name: '名屋黑豆浆饮料485ml/瓶',
+    mallPrice: 7.5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+  cid: {
+    add_time: 1605166175668,
+    check: false,
+    count: 3,
+    _id: '5face45f270f993630e058c6',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 7.5,
+    cid: 'a5d1130de39f434facc6d35514cea053',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',
+    name: '名屋黑豆浆饮料485ml/瓶',
+    mallPrice: 7.5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{\n  cid: {\n    add_time: 1605166175668,\n    check: false,\n    count: 3,\n    _id: '5face45f270f993630e058c6',\n    uid: '5fabc7bd73fa64d9604314a2',\n    present_price: 7.5,\n    cid: 'a5d1130de39f434facc6d35514cea053',\n    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',\n    name: '名屋黑豆浆饮料485ml/瓶',\n    mallPrice: 7.5,\n    __v: 0\n  }\n}\""
+kind: "string"
+value: {"cid":{"add_time":1605166175668,"check":false,"count":3,"_id":"5face45f270f993630e058c6","uid":"5fabc7bd73fa64d9604314a2","present_price":7.5,"cid":"a5d1130de39f434facc6d35514cea053","image_path":"http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg","name":"名屋黑豆浆饮料485ml/瓶","mallPrice":7.5,"__v":0}}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 17:48:44,481 ERROR 13872 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  cid: {
+    add_time: 1605166175668,
+    check: false,
+    count: 3,
+    _id: '5face45f270f993630e058c6',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 7.5,
+    cid: 'a5d1130de39f434facc6d35514cea053',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',
+    name: '名屋黑豆浆饮料485ml/瓶',
+    mallPrice: 7.5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+  cid: {
+    add_time: 1605166175668,
+    check: false,
+    count: 3,
+    _id: '5face45f270f993630e058c6',
+    uid: '5fabc7bd73fa64d9604314a2',
+    present_price: 7.5,
+    cid: 'a5d1130de39f434facc6d35514cea053',
+    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',
+    name: '名屋黑豆浆饮料485ml/瓶',
+    mallPrice: 7.5,
+    __v: 0
+  }
+}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{\n  cid: {\n    add_time: 1605166175668,\n    check: false,\n    count: 3,\n    _id: '5face45f270f993630e058c6',\n    uid: '5fabc7bd73fa64d9604314a2',\n    present_price: 7.5,\n    cid: 'a5d1130de39f434facc6d35514cea053',\n    image_path: 'http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg',\n    name: '名屋黑豆浆饮料485ml/瓶',\n    mallPrice: 7.5,\n    __v: 0\n  }\n}\""
+kind: "string"
+value: {"cid":{"add_time":1605166175668,"check":false,"count":3,"_id":"5face45f270f993630e058c6","uid":"5fabc7bd73fa64d9604314a2","present_price":7.5,"cid":"a5d1130de39f434facc6d35514cea053","image_path":"http://images.baixingliangfan.cn/compressedPic/20180415120857_4885.jpg","name":"名屋黑豆浆饮料485ml/瓶","mallPrice":7.5,"__v":0}}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 17:50:53,457 ERROR 13872 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ c: 1 }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ c: 1 }\""
+kind: "string"
+value: {"c":1}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 17:50:56,403 ERROR 13872 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ c: 1 }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ c: 1 }\""
+kind: "string"
+value: {"c":1}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 18:24:08,413 ERROR 13872 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ c: 1 }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ c: 1 }\""
+kind: "string"
+value: {"c":1}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 18:57:29,648 ERROR 13872 [-/127.0.0.1/-/15ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ c: 1 }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ c: 1 }\""
+kind: "string"
+value: {"c":1}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 18:57:42,739 ERROR 13872 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ c: 1 }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ c: 1 }\""
+kind: "string"
+value: {"c":1}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 18:58:47,777 ERROR 13872 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ c: 1 }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ c: 1 }\""
+kind: "string"
+value: {"c":1}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 18:58:50,314 ERROR 13872 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ c: 1 }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ c: 1 }\""
+kind: "string"
+value: {"c":1}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 18:58:52,189 ERROR 13872 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ c: 1 }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ c: 1 }\""
+kind: "string"
+value: {"c":1}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 19:00:00,247 ERROR 13872 [-/127.0.0.1/-/5ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ arr: [ '5face45f270f993630e058c6' ] }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ arr: [ '5face45f270f993630e058c6' ] }\""
+kind: "string"
+value: {"arr":["5face45f270f993630e058c6"]}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 19:00:05,424 ERROR 13872 [-/127.0.0.1/-/3ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ arr: [ '5face0e3270f993630e058c5' ] }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ arr: [ '5face0e3270f993630e058c5' ] }\""
+kind: "string"
+value: {"arr":["5face0e3270f993630e058c5"]}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 19:00:41,966 ERROR 13872 [-/127.0.0.1/-/3ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ cid: [ '5face45f270f993630e058c6' ] }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ cid: [ '5face45f270f993630e058c6' ] }\""
+kind: "string"
+value: {"cid":["5face45f270f993630e058c6"]}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 19:01:55,239 ERROR 13872 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ cid: { cid: [ '5face45f270f993630e058c6' ] } }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ cid: { cid: [ '5face45f270f993630e058c6' ] } }\""
+kind: "string"
+value: {"cid":{"cid":["5face45f270f993630e058c6"]}}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 19:01:56,491 ERROR 13872 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ cid: { cid: [ '5face45f270f993630e058c6' ] } }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ cid: { cid: [ '5face45f270f993630e058c6' ] } }\""
+kind: "string"
+value: {"cid":{"cid":["5face45f270f993630e058c6"]}}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 19:02:04,539 ERROR 13872 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ cid: { cid: [ '5face0e3270f993630e058c5' ] } }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ cid: { cid: [ '5face0e3270f993630e058c5' ] } }\""
+kind: "string"
+value: {"cid":{"cid":["5face0e3270f993630e058c5"]}}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 19:02:53,533 ERROR 13872 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ cid: { cid: [ '5face45f270f993630e058c6' ] } }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ cid: { cid: [ '5face45f270f993630e058c6' ] } }\""
+kind: "string"
+value: {"cid":{"cid":["5face45f270f993630e058c6"]}}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 19:03:24,326 ERROR 13872 [-/127.0.0.1/-/3ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ cid: { cid: [ '5face45f270f993630e058c6' ] } }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ cid: { cid: [ '5face45f270f993630e058c6' ] } }\""
+kind: "string"
+value: {"cid":{"cid":["5face45f270f993630e058c6"]}}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 19:03:46,584 ERROR 13872 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ cid: { cid: [ 'a5d1130de39f434facc6d35514cea053' ] } }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ cid: { cid: [ 'a5d1130de39f434facc6d35514cea053' ] } }\""
+kind: "string"
+value: {"cid":{"cid":["a5d1130de39f434facc6d35514cea053"]}}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 19:03:55,717 ERROR 13872 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ cid: { cid: [ 'a5d1130de39f434facc6d35514cea053' ] } }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ cid: { cid: [ 'a5d1130de39f434facc6d35514cea053' ] } }\""
+kind: "string"
+value: {"cid":{"cid":["a5d1130de39f434facc6d35514cea053"]}}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 19:04:38,108 ERROR 13872 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ cid: { cid: [ 'a5d1130de39f434facc6d35514cea053' ] } }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ cid: { cid: [ 'a5d1130de39f434facc6d35514cea053' ] } }\""
+kind: "string"
+value: {"cid":{"cid":["a5d1130de39f434facc6d35514cea053"]}}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 19:05:42,941 ERROR 13872 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ cid: [ 'a5d1130de39f434facc6d35514cea053' ] }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ cid: [ 'a5d1130de39f434facc6d35514cea053' ] }\""
+kind: "string"
+value: {"cid":["a5d1130de39f434facc6d35514cea053"]}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+
+2020-11-12 19:06:23,172 ERROR 13872 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (C:\Users\Administrator\Desktop\shop\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 13872
+hostname: stu42
+

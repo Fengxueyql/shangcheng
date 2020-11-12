@@ -2,7 +2,7 @@
 <div class="observe-dom-container">
     <div class="scroll-wrapper" ref="scroll">
         <div class="scroll-content">
-            <div v-for="(item, index) in list" :key="index" class="scroll-item">
+            <div v-for="(item, index) in list" :key="index" class="scroll-item" @click="jump(item)">
                 <div class="box4">
                     <img :src="item.image" />
                     <div class="box3">{{ item.goodsName.substr(0,5)+'...' }}</div>
@@ -48,6 +48,7 @@ export default {
                 observeDOM: true,
                 scrollX: true,
                 scrollY: false,
+                click: true,
             });
         },
         handleClick() {
@@ -55,7 +56,7 @@ export default {
             this.nums += 2;
         },
         //路由传参
-        add(item) {
+        jump(item) {
 
             this.$router.push({
                 path: '/detail',
@@ -65,7 +66,7 @@ export default {
                 }
 
             })
-            console.log(res.data)
+
         }
     },
     //调用
