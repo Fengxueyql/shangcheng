@@ -238,3 +238,9 @@
 2020-11-13 08:46:25,072 INFO 13820 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
 2020-11-13 08:46:25,072 INFO 13820 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
 2020-11-13 08:46:25,072 INFO 13820 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-11-13 08:48:11,275 INFO 14604 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-11-13 08:48:11,275 INFO 14604 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-11-13 08:48:11,275 INFO 14604 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-11-13 08:48:12,817 INFO 14516 [Timer] C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 70907185ms at 2020-11-14 04:30:00.002
+2020-11-13 08:48:12,818 INFO 14516 [Timer] C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 54707183ms at 2020-11-14 00:00:00.001
+2020-11-13 08:48:12,818 INFO 14516 [Timer] C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 54708182ms at 2020-11-14 00:00:01.000
