@@ -9,7 +9,7 @@
     </div>
     <div class="box1" v-if="!flag">
         <div class="box3"><img src="../../../assets/b1.jpg">
-            <div class="box2">请退出登录：小白</div>
+            <div class="box2">请退出登录：小白赤</div>
             <van-button type="primary">退出登录</van-button>
 
         </div>

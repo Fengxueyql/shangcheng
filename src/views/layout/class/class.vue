@@ -87,7 +87,7 @@ export default {
                 }
             });
         },
-        //做展示
+        //做展示部分
         add(name) {
             // console.log(name)
             this.getclass(name);
