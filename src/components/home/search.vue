@@ -1,9 +1,11 @@
 <template>
 <div>
-    <van-search v-model="value" show-action label="地址" placeholder="请输入搜索关键词" @search="onSearch">
+    <van-search v-model="value" show-action placeholder="请输入搜索关键词" @search="onSearch">
         <template #action>
-            <div @click="onSearch">搜索</div>
+
+            <div v-for="(item, index) in list" :key="index">{{item.name}} </div>
         </template>
+
     </van-search>
 
 </div>
@@ -20,7 +22,8 @@ export default {
     // 定义变量
     data() {
         return {
-            value: ''
+            value: '',
+            list: '',
 
         }
     },
@@ -28,6 +31,28 @@ export default {
     methods: {
         onSearch(val) {
             Toast(val);
+        },
+
+        onSearch() {
+            let info = {
+                value: this.value
+            }
+            this.$api.search(info).then((res) => {
+                if (res.code === 200) {
+                    this.list = res.data.list
+                    this.list.map((item) => {
+                        this.$set(
+                            item,
+                            "nickname",
+                            item.name.replace(
+                                eval(`/${this.value}/g`),
+                                `<span style="color:red">${this.value}</span>`
+                            )
+                        )
+                    })
+
+                }
+            });
         },
 
     },

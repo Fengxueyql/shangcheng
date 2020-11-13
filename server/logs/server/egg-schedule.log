@@ -220,3 +220,21 @@
 2020-11-12 09:32:30,957 INFO 16132 [Timer] C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 68249047ms at 2020-11-13 04:30:00.004
 2020-11-12 09:32:30,958 INFO 16132 [Timer] C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 52049043ms at 2020-11-13 00:00:00.001
 2020-11-12 09:32:30,958 INFO 16132 [Timer] C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 52050042ms at 2020-11-13 00:00:01.000
+2020-11-13 08:27:09,356 INFO 6424 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-11-13 08:27:09,356 INFO 6424 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-11-13 08:27:09,356 INFO 6424 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-11-13 08:29:15,985 INFO 9572 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-11-13 08:29:15,985 INFO 9572 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-11-13 08:29:15,985 INFO 9572 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-11-13 08:30:42,909 INFO 8188 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-11-13 08:30:42,909 INFO 8188 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-11-13 08:30:42,909 INFO 8188 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-11-13 08:32:05,261 INFO 12140 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-11-13 08:32:05,261 INFO 12140 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-11-13 08:32:05,261 INFO 12140 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-11-13 08:45:58,257 INFO 13536 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-11-13 08:45:58,257 INFO 13536 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-11-13 08:45:58,257 INFO 13536 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-11-13 08:46:25,072 INFO 13820 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-11-13 08:46:25,072 INFO 13820 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-11-13 08:46:25,072 INFO 13820 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shop\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js

@@ -7,16 +7,12 @@ let  Api =  {
        return http.get('/recommend')
    },
    //2. 搜索(post)
-   search(value) {
-       return http.post('/search',{
-        value
-       })
+   search(data) {
+       return http.post('/search',data)
    },
    //3. 分类查询(get)
-   getcalass({id}) {
-       return http.get('/classification?mallSubId=${id}',{
-           id
-       })
+   getcalass(id) {
+       return http.get(`/classification?mallSubId=${id}`)
    },
    //4. 查询获取购物车数据(post)
    getcard(data) {

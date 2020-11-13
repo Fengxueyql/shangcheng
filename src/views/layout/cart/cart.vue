@@ -71,16 +71,14 @@ export default {
         },
         //删除数据
         dele(item) {
-            console.log(item)
-            console.log(item.cid);
+
             let arr = [];
             arr.push(item.cid);
-            console.log(arr)
 
             this.$api.deleteshop(
                 arr
             ).then(res => {
-                console.log(res)
+
             })
             this.get()
 
